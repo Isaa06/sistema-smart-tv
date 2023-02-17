@@ -1,6 +1,6 @@
 public class Usuario {
     public static void main(String[] args) throws Exception {
-        
+        //aplicando métodos e chamando classes;
         SmartTv smartTv = new SmartTv();
 
         smartTv.dimunuirVolume();
@@ -8,7 +8,7 @@ public class Usuario {
         smartTv.dimunuirVolume();
         smartTv.aumentarVolume();
         System.out.println("Canal atual: " + smartTv.canal);
-        
+
         smartTv.mudarCanal(13);
 
         System.out.println("Canal atual: " + smartTv.canal);
